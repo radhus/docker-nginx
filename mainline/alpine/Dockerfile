@@ -2,7 +2,7 @@ FROM alpine:3.4
 
 MAINTAINER NGINX Docker Maintainers "docker-maint@nginx.com"
 
-ENV NGINX_VERSION 1.11.5
+ENV NGINX_VERSION 1.11.7
 ENV LIBRESSL_VERSION 2.5.0
 COPY libressl.gpg libressl.gpg
 
